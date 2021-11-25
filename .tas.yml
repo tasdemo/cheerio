@@ -1,5 +1,8 @@
 ---
 framework: jest
+blocklist:
+  - "src/cheerio.spec.ts##cheerio##cheerio('') should be empty##"
+  - "src/cheerio.spec.ts##cheerio##cheerio(selector) with no context or root should be empty##"
 postMerge:
   pattern:
     - './src/**/*.spec.ts'
