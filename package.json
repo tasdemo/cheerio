@@ -110,7 +110,6 @@
     "testEnvironment": "node",
     "testPathIgnorePatterns": [
       "/__fixtures__/"
-    ],
-    "coverageProvider": "v8"
+    ]
   }
 }
